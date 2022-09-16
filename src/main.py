@@ -85,4 +85,4 @@ if __name__ == "__main__":
     def index(request: Request) -> Response:
         return Response("<b>It works</b>")
 
-    app.run("0.0.0.0", 8000)
+    app.run()
